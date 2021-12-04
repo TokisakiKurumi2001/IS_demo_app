@@ -9,7 +9,7 @@ def main():
     root.title("Comment Sentiment Analysis")
     mymodel = Model()
     mymodel.load_vocab()
-    mymodel.load_the_model()
+    mymodel.load_the_model('sa_bilstm')
     # print(mymodel.predict("I love watching movie"))
     # print(mymodel.stupid_infer("I love watching movie"))
 
